@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    height: 100px;
+}
+nav img{
+    width: 24px;
+    height: 24px;
+    padding: -10px;
+}
+
+nav button{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+    border:none;
+    border-radius: 8px;
+
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+.doodle{
+    display: flex;
+    justify-content: center;
+}
+
+.buscador{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 60px;
+    width: auto;
+    max-width: 584px;
+    border: solid 1px;
+    border-radius: 24px;
+    border-color: #dfe1e5;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.buscador img {
+    width: 24px;
+    height: 24px;
+}
+
+.buscador textarea{
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-style: normal;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    border: none;
+    width: 70%;
+    height: auto;
+}
+
+.botones{
+    flex: 1;
+    display: block;
+    justify-content: space-around;
+    padding: 25px;
+    height: 60px;
+    width: auto;
+    max-width: 584px;
+    margin: 0 auto;
+    text-align: center;
+}   
+
+.botones button{
+    height: 40px;
+    border: none;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+}
+
+.piepagina{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0px 80px;
+    
+}
+
+.piepagina div{
+  padding: 10px;
+
+}
+
+.piepagina a{
+    color: black;
+    text-decoration: none;
+}
